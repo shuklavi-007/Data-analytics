@@ -1,0 +1,34 @@
+1. States = rownames(US Arrests)
+Get states names with ‘w’.
+Get states names with ‘W’.
+
+>>#for w
+grep("w",rownames(USArrests))
+x<-grep("w",States)
+
+for (i in 1:length(x)){
+  print(States[x[i]])
+  
+}
+
+#for W
+grep("W",rownames(USArrests))
+y<-grep("W",States)
+
+for (i in 1:length(y)){
+  print(States[y[i]])
+  
+}
+
+
+
+2. Prepare a Histogram of the number of characters in each US state.
+
+>>for(i in 1:50){
+  temp <- States[i]
+  len <- nchar(temp)
+  answer <- c(States,len)
+  
+}
+
+hist(answer[2:51],xlab="No. of characters in each state",col = "red")
