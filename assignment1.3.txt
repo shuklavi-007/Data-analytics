@@ -1,0 +1,19 @@
+1. What are the different methods to call a function in R?
+>>a) Calling a function.
+b) calling a function without an argument.
+c) Calling a function with argument
+d) Calling a Function with Default Argument.
+e)Lazy evaluation of function.
+
+2. The lazy evaluation of a function means, the argument is evaluated only if it is evaluated only if it is used
+inside the body of the function. Say True or False.
+>>true
+3. State True or False:
+a. Insights driven from descriptive analytics is not meaningful.
+>>false
+b. The number of values in each Elements of a list, should be equal.
+>>false
+c. The datasets are not stored in memory of the computer using R.
+>>false
+d. Data frames and matrices are two dimensional however the array is multidimensional.
+>>true
